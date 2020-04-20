@@ -38,6 +38,9 @@
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Classes" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -134,26 +137,30 @@
     </state>
     <state x="2187" y="302" key="FileChooserDialogImpl/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587368210651" />
     <state x="2187" y="302" key="FileChooserDialogImpl/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587368163674" />
-    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1587395343896">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom" timestamp="1587396926922">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395343896" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587369881083" />
-    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1587395343894">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926922" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center" timestamp="1587396926920">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395343894" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587369881081" />
-    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1587395343893">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926920" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left" timestamp="1587396926919">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395343893" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587369881080" />
-    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1587395343895">
-      <screen x="1440" y="0" width="1920" height="1080" />
+    <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926919" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right" timestamp="1587396926921">
+      <screen x="1440" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395343895" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587369881082" />
+    <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926921" />
     <state x="1909" y="179" key="SettingsEditor" timestamp="1587368897508">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
