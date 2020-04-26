@@ -2,5 +2,12 @@
   "data_path": "../../Data/",
   "init_ts": 1481324400,
   "final_ts": 1485903599,
-  "output_plot_path": '../Plots/'
+  "output_plot_path": "../Plots/",
+  "duration_s_min": 60,
+  "duration_s_max": 7200,
+  "distance_m_min": 700,
+  "TO_min_lat": 45.0,
+  "TO_min_lon": 7.58,
+  "TO_max_lat": 45.19,
+  "TO_max_lon": 7.73
 }

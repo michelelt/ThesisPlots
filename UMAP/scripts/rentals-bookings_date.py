@@ -3,7 +3,7 @@ import json
 import matplotlib.pyplot as plt
 
 
-with open('config.json') as fp: config = json.load(fp)
+with open('../config.json') as fp: config = json.load(fp)
 nrows=None
 
 c2g = pd.read_csv(config['data_path']+'Torino.csv', nrows=nrows)
@@ -28,6 +28,7 @@ enj_r = enj_r.groupby('Date').count().sort_index()
 min_date = min(c2g.Date.min(), enj.Date.min())
 max_date = max(c2g.Date.max(), enj.Date.max())
 date_list = pd.DataFrame(pd.date_range(min_date, max_date), columns=['Date_list'])
+date_labels = date_list['Date_list'].dt.strftime('%b \'%y').drop_duplicates().reset_index().drop('index', axis=1)
 date_list['Date_list'] = date_list['Date_list'].dt.date
 
 c2g_b = date_list.merge(c2g_b, how='left', left_on='Date_list', right_index=True).set_index('Date_list')['_id']
@@ -40,12 +41,14 @@ ax.plot(c2g_b.index, c2g_b.values, color='blue', label='Car2go Bookings')
 ax.plot(c2g_r.index, c2g_r.values, color='blue', label='Car2go Rentals', linestyle='--')
 ax.plot(enj_b.index, enj_b.values, color='red', label='Enjoy Bookings')
 ax.plot(enj_r.index, enj_r.values, color='red', label='Enjoy Rentals', linestyle='--')
+# ax.set_xticks(date_labels.index)
+ax.set_xticklabels(date_labels.Date_list.tolist())
 ax.tick_params(axis='x', rotation=15)
 ax.legend()
 ax.grid()
 ax.set_ylim(0,6000)
 
-plt.savefig('ReB_date.pdf', bboxinches='tight')
+plt.savefig(config['output_plot_path'] + 'ReB_date.pdf', bboxinches='tight')
 
 
 
