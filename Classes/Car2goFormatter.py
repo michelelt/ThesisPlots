@@ -26,10 +26,10 @@ class Car2goFormatter:
                 line = str(line)
                 line = line.replace('\'', '\"')
                 line_dict = json.loads(line)
-                return line_dict['coordinates'][0][0],\
-                       line_dict['coordinates'][0][1],\
-                       line_dict['coordinates'][1][0],\
-                       line_dict['coordinates'][1][1]
+                return float(line_dict['coordinates'][0][0]),\
+                       float(line_dict['coordinates'][0][1]),\
+                       float(line_dict['coordinates'][1][0]),\
+                       float(line_dict['coordinates'][1][1])
 
             df[['start_lon', 'start_lat', 'end_lon', 'end_lat']] = df.apply(lambda x: f(x.origin_destination), axis=1, result_type='expand')
             df = df.drop('origin_destination', axis=1)

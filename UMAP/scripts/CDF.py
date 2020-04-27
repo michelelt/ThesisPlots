@@ -28,7 +28,7 @@ def compute_cdf(y_set):
     return sorted_data, yvals
 
 
-if __name__ = '__main__':
+if __name__ =='__main__':
     with open('../config.json') as fp: config = json.load(fp)
     nrows=None
 
@@ -43,7 +43,6 @@ if __name__ = '__main__':
     c2g_r_we, c2g_r_wd = split_df(c2g, config, is_rental=True)
 
 
-
     enj = pd.read_csv(config['data_path']+'enjoyTorino.csv', nrows=nrows)
     filter = Filter(enj, config)
     enj = filter.remove_fake_bookings(enj, config)
@@ -53,7 +52,6 @@ if __name__ = '__main__':
     enj["Wod"] = enj.Date_index.dt.weekday_name
     enj_b_we, enj_b_wd = split_df(enj, config, is_rental=False)
     enj_r_we, enj_r_wd = split_df(enj, config, is_rental=True)
-
 
 
     '''
