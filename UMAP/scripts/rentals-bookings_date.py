@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
     with open('../config.json') as fp: config = json.load(fp)
-    nrows=None
+    nrows=100000
 
     c2g = pd.read_csv(config['data_path']+'Torino.csv', nrows=nrows)
     # c2g = c2g[(c2g.init_time >= config['init_ts']) & (c2g.final_time <= config['final_ts']) ]

@@ -17,11 +17,12 @@ class Filter:
         return df
 
 
+
     def split_df(self, is_rental=True):
         df = self.df
         config = self.config
         if is_rental == True:
-            df = df[df['distance'] >= config["distance_m_min"]]
+            df = df[df['distance'] > config["distance_m_min"]]
             df = df[(df['duration'] >= config["duration_s_min"]) & (df['duration'] <= config["duration_s_max"])]
         else:
             df = df[df['distance'] == 0]
