@@ -2,14 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3263b90d-cd0a-483c-8055-4d733545722a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../BookDwonloader/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/ReadConfig.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/probability_cs_vs_pt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/WhatsappCrawler.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/cred.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Data/ListOfContacts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/CDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/CDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/heat_map.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_date.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_hour.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_hour.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,16 +60,13 @@
       <recent name="$PROJECT_DIR$/UMAP/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.heat_map_driving_vs_google_duration">
+  <component name="RunManager" selected="Python.heat_map">
     <configuration name="CDF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/plots" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -89,20 +102,17 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="download_data" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="average_durations_per_hour" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/download_data.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,7 +159,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="rentals-bookings_date (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="probability_cs_vs_pt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -159,7 +169,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_date.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/probability_cs_vs_pt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -170,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.heat_map_driving_vs_google_duration" />
-        <item itemvalue="Python.rentals-bookings_date (1)" />
         <item itemvalue="Python.heat_map" />
-        <item itemvalue="Python.download_data" />
+        <item itemvalue="Python.probability_cs_vs_pt" />
+        <item itemvalue="Python.heat_map_driving_vs_google_duration" />
         <item itemvalue="Python.CDF" />
+        <item itemvalue="Python.average_durations_per_hour" />
       </list>
     </recent_temporary>
   </component>
@@ -197,7 +207,11 @@
       <workItem from="1587838176734" duration="9599000" />
       <workItem from="1587989783889" duration="3131000" />
       <workItem from="1587996081292" duration="11913000" />
-      <workItem from="1588142697033" duration="8046000" />
+      <workItem from="1588142697033" duration="8320000" />
+      <workItem from="1588236524480" duration="7119000" />
+      <workItem from="1588343561480" duration="5279000" />
+      <workItem from="1588572805535" duration="687000" />
+      <workItem from="1588573713338" duration="5791000" />
     </task>
     <servers />
   </component>
@@ -218,53 +232,53 @@
     </state>
     <state x="2187" y="302" key="FileChooserDialogImpl/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587368210651" />
     <state x="2187" y="302" key="FileChooserDialogImpl/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587368163674" />
-    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1588160744531">
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom" timestamp="1588169679001">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744531" />
+    <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679001" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587822362720" />
     <state width="1878" height="375" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778057" />
     <state width="1878" height="304" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926922" />
-    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1588160744529">
+    <state width="1878" height="375" key="GridCell.Tab.0.center" timestamp="1588169679000">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744529" />
+    <state width="1878" height="375" key="GridCell.Tab.0.center/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679000" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587822362715" />
     <state width="1878" height="375" key="GridCell.Tab.0.center/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778055" />
     <state width="1878" height="304" key="GridCell.Tab.0.center/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926920" />
-    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1588160744528">
+    <state width="1878" height="375" key="GridCell.Tab.0.left" timestamp="1588169678998">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744528" />
+    <state width="1878" height="375" key="GridCell.Tab.0.left/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169678998" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587822362713" />
     <state width="1878" height="375" key="GridCell.Tab.0.left/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778054" />
     <state width="1878" height="304" key="GridCell.Tab.0.left/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926919" />
-    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1588160744530">
+    <state width="1878" height="375" key="GridCell.Tab.0.right" timestamp="1588169679001">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744530" />
+    <state width="1878" height="375" key="GridCell.Tab.0.right/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679001" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587822362717" />
     <state width="1878" height="375" key="GridCell.Tab.0.right/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778056" />
     <state width="1878" height="304" key="GridCell.Tab.0.right/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1587396926921" />
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1588160744535">
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom" timestamp="1588169679004">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744535" />
+    <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679004" />
     <state width="1878" height="375" key="GridCell.Tab.1.bottom/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778062" />
-    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1588160744533">
+    <state width="1878" height="375" key="GridCell.Tab.1.center" timestamp="1588169679003">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744533" />
+    <state width="1878" height="375" key="GridCell.Tab.1.center/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679003" />
     <state width="1878" height="375" key="GridCell.Tab.1.center/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778059" />
-    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1588160744532">
+    <state width="1878" height="375" key="GridCell.Tab.1.left" timestamp="1588169679002">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744532" />
+    <state width="1878" height="375" key="GridCell.Tab.1.left/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679002" />
     <state width="1878" height="375" key="GridCell.Tab.1.left/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778058" />
-    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1588160744534">
+    <state width="1878" height="375" key="GridCell.Tab.1.right" timestamp="1588169679003">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588160744534" />
+    <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679003" />
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778061" />
     <state x="1909" y="179" key="SettingsEditor" timestamp="1587368897508">
       <screen x="1440" y="0" width="1920" height="1080" />
@@ -280,20 +294,24 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2058" y="162" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395704874" />
-    <state x="3360" y="81" width="1089" height="720" key="dock-window-1" timestamp="1588143411798">
-      <screen x="3360" y="0" width="1920" height="1080" />
+    <state x="3657" y="24" width="1077" height="720" maximized="true" key="dock-window-1" timestamp="1588573855184">
+      <screen x="3360" y="23" width="1920" height="1057" />
     </state>
     <state x="3360" y="81" width="1089" height="720" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588143411798" />
-    <state x="3507" y="0" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587911090145" />
-    <state x="3360" y="0" width="965" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587997807576" />
+    <state x="3657" y="24" width="1077" height="720" maximized="true" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1588573855184" />
+    <state x="3360" y="0" width="1086" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324368" />
     <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1080@1440.23.1920.1057" timestamp="1587372840771" />
-    <state x="0" y="0" width="1440" height="900" key="dock-window-2" timestamp="1588028147653">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="4141" y="0" width="1086" height="720" key="dock-window-2" timestamp="1588239324370">
+      <screen x="3360" y="23" width="1920" height="1057" />
     </state>
     <state x="3596" y="15" width="916" height="720" maximized="true" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587376020450" />
     <state x="0" y="0" width="1440" height="900" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1588028147652" />
-    <state x="3360" y="382" width="965" height="720" maximized="true" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587997807578" />
+    <state x="4141" y="0" width="1086" height="720" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324370" />
+    <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3" timestamp="1588239324371">
+      <screen x="3360" y="23" width="1920" height="1057" />
+    </state>
+    <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324371" />
     <state x="1988" y="202" key="editAsTableFormatDialogDimension" timestamp="1588004696706">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>

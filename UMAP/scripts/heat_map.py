@@ -2,6 +2,7 @@ import sys
 sys.path.append('../..')
 from Classes.Filter import Filter
 from Classes.DF2GDF import DF2GDF
+from Classes.ReadConfig import ReadConfig
 
 
 import pandas as pd
@@ -20,18 +21,24 @@ def print_point(df1, df2, index):
 
 
 if __name__=='__main__':
-    with open('../config.json') as fp : config = json.load(fp)
-    nrows = None
-    provider = 'car2go'
+    rc = ReadConfig('../config.json')
+    config = rc.get_config()
+
+    nrows = 128000
+    provider = 'both'
 
     if provider == 'car2go': df = pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)
+    elif provider=='both':
+        df=pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)\
+        .append(pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows), ignore_index=True, sort=False)
     else: df = pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows)
 
+    df_before_filters = df.copy()
+
     filter = Filter(df, config)
-    df = filter.remove_fake_bookings()
-    df['Date_index'] = pd.to_datetime(df.init_date, format='%Y-%m-%d %H:%M:%S')
-    df['Date'] = df.Date_index.dt.date
-    df["Wod"] = df.Date_index.dt.weekday_name
+    filter.remove_fake_bookings_torino()
+    filter.date_standardization()
+    df = filter.rentals()
 
     converter = DF2GDF()
     df_start = converter.df2gdf_point(df.copy(), dict(Lon='start_lon', Lat='start_lat'), crs=config['crs'])
@@ -63,6 +70,7 @@ if __name__=='__main__':
     fig, ax = plt.subplots()
     city_map_cleaned.plot(ax=ax, column='actract',  legend=True)
     plt.savefig(config['output_plot_path']+provider+'Torino.pdf')
+    fig.show()
 
 
 

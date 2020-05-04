@@ -1,9 +1,15 @@
+import sys
+sys.path.append('../..')
+from Classes.ReadConfig import ReadConfig
+
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
 
 if __name__ == '__main__':
-    with open('../config.json') as fp: config = json.load(fp)
+    rc = ReadConfig('../config.json')
+    config = rc.get_config()
+
     nrows=100000
 
     c2g = pd.read_csv(config['data_path']+'Torino.csv', nrows=nrows)
@@ -36,7 +42,7 @@ if __name__ == '__main__':
     enj_b = date_list.merge(enj_b, how='left', left_on='Date_list', right_index=True).set_index('Date_list')['_id']
     enj_r = date_list.merge(enj_r, how='left', left_on='Date_list', right_index=True).set_index('Date_list')['_id']
 
-    fig, ax = plt.subplots(1,1, figsize=(16,9))
+    fig, ax = plt.subplots(1,1, figsize=config['figsize'])
     ax.plot(c2g_b.index, c2g_b.values, color='blue', label='Car2go Bookings')
     ax.plot(c2g_r.index, c2g_r.values, color='blue', label='Car2go Rentals', linestyle='--')
     ax.plot(enj_b.index, enj_b.values, color='red', label='Enjoy Bookings')
@@ -49,6 +55,6 @@ if __name__ == '__main__':
     ax.set_ylim(0,6000)
 
     plt.savefig(config['output_plot_path'] + 'ReB_date.pdf', bboxinches='tight')
-
+    fig.show()
 
 

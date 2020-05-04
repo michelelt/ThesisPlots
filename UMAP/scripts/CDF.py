@@ -4,22 +4,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import sys
 sys.path.append('../..')
-
+from Classes.ReadConfig import ReadConfig
 from Classes.Filter import Filter
 
-
-
-
-def split_df(df, config, is_rental=True):
-    if is_rental == True:
-        df = df[df['distance'] >= config["distance_m_min"]]
-        df = df[(df['duration'] >= config["duration_s_min"]) & (df['duration'] <= config["duration_s_max"])]
-    else :
-        df = df[df['distance'] == 0]
-        df = df[(df['duration'] <= 60*30)]
-    df_we = df[df.Wod.isin(["Saturday", "Sunday"])]
-    df_wd = df[~df.Wod.isin(["Saturday", "Sunday"])]
-    return df_we, df_wd
 
 def compute_cdf(y_set):
     values = y_set
@@ -27,33 +14,7 @@ def compute_cdf(y_set):
     yvals = np.arange(len(values)) / float(len(values) - 1)
     return sorted_data, yvals
 
-
-if __name__ =='__main__':
-    with open('../config.json') as fp: config = json.load(fp)
-    nrows=None
-
-
-    c2g = pd.read_csv(config['data_path']+'Torino.csv', nrows=nrows)
-    filter = Filter(c2g, config)
-    c2g = filter.remove_fake_bookings()
-    c2g['Date_index'] = pd.to_datetime(c2g.init_date, format='%Y-%m-%d %H:%M:%S')
-    c2g['Date'] = c2g.Date_index.dt.date
-    c2g["Wod"] = c2g.Date_index.dt.weekday_name
-    c2g_b_we, c2g_b_wd = split_df(c2g, config, is_rental=False)
-    c2g_r_we, c2g_r_wd = split_df(c2g, config, is_rental=True)
-
-
-    enj = pd.read_csv(config['data_path']+'enjoyTorino.csv', nrows=nrows)
-    filter = Filter(enj, config)
-    enj = filter.remove_fake_bookings(enj, config)
-    # enj = enj[ (enj.final_time <= config['final_ts'])  ]
-    enj['Date_index'] = pd.to_datetime(enj.init_date, format='%Y-%m-%d %H:%M:%S')
-    enj['Date'] = enj.Date_index.dt.date
-    enj["Wod"] = enj.Date_index.dt.weekday_name
-    enj_b_we, enj_b_wd = split_df(enj, config, is_rental=False)
-    enj_r_we, enj_r_wd = split_df(enj, config, is_rental=True)
-
-
+def cdf_bookings_duration(c2g_b_we, c2g_b_wd, enj_b_we, enj_b_wd):
     '''
     cdf BOOKINGS DURATION -> does not produce a rental
     '''
@@ -75,8 +36,9 @@ if __name__ =='__main__':
     ax.set_xlabel("Duration [min]")
     ax.set_ylabel("ECDF")
     plt.savefig(config["output_plot_path"]+"CDF_Bookings_Duration.pdf", bbox_inches="tight")
+    fig.show()
 
-
+def cdf_rental_duration(c2g_r_we, c2g_r_wd, enj_r_we, enj_r_wd):
     '''
     cdf RENTAL DURATION
     '''
@@ -98,8 +60,9 @@ if __name__ =='__main__':
     ax.set_xlabel("Duration [min]")
     ax.set_ylabel("ECDF")
     plt.savefig(config["output_plot_path"]+"CDF_Rentals_Duration.pdf", bbox_inches="tight")
+    fig.show()
 
-
+def cdf_rental_distance(c2g_r_we, c2g_r_wd, enj_r_we, enj_r_wd):
     '''
     cdf RENTAL DISTANCE
     '''
@@ -121,3 +84,65 @@ if __name__ =='__main__':
     ax.set_xlabel("Distance [km]")
     ax.set_ylabel("ECDF")
     plt.savefig(config["output_plot_path"]+"CDF_Rentals_Distance.pdf", bbox_inches="tight")
+    fig.show()
+
+def cdf_booking_duration_vs_google_duration(c2g, enj):
+    '''
+    CDF Booking Duration vs Driving Duration
+    '''
+    c2g = c2g[(c2g['driving_duration'] != -1) & (c2g['driving_duration'] > c2g['duration'])]
+    c2g['faster_diff'] = c2g['driving_duration'].div(60) - c2g['duration'].div(60)
+    enj = enj[(enj['driving_duration'] != -1) & (enj['driving_duration'] > enj['duration'])]
+    enj['faster_diff'] = enj['driving_duration'].div(60) - enj['duration'].div(60)
+    c2g_x, c2g_y = compute_cdf(c2g.faster_diff)
+    enj_x, enj_y = compute_cdf(enj.faster_diff)
+
+    fig,ax = plt.subplots(1,1, figsize=(16,9))
+    ax.plot(c2g_x, c2g_y, color='blue', label='Car2go')
+    ax.plot(enj_x, enj_y, color='red', label='Enjoy')
+    ax.legend()
+    ax.grid()
+    ax.legend()
+    ax.set_xlabel('Faster [min]')
+    ax.set_ylabel('ECDF')
+    plt.savefig(config["output_plot_path"] + "CDF_driving_vs_google_pt.pdf", bbox_inches="tight")
+    fig.show()
+
+
+if __name__ == '__main__':
+    rc = ReadConfig('../config.json')
+    config = rc.get_config()
+
+    nrows=100000
+
+    c2g = pd.read_csv(config['data_path']+'Torino.csv', nrows=nrows)
+    c2g_filter = Filter(c2g, config)
+    c2g_filter.remove_fake_bookings_torino()
+    c2g_filter.date_standardization()
+    out_b = c2g_filter.split_WD_WE()
+    c2g_b_we = out_b['df_we']
+    c2g_b_wd = out_b['df_wd']
+    c2g_filter.rentals()
+    out_r = c2g_filter.split_WD_WE()
+    c2g_r_we = out_r['df_we']
+    c2g_r_wd = out_r['df_wd']
+
+    enj = pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows)
+    enj_filter = Filter(enj, config)
+    enj_filter.remove_fake_bookings_torino()
+    enj_filter.date_standardization()
+    out_b = enj_filter.split_WD_WE()
+    enj_b_we = out_b['df_we']
+    enj_b_wd = out_b['df_wd']
+    enj_filter.rentals()
+    out_r = enj_filter.split_WD_WE()
+    enj_r_we = out_r['df_we']
+    enj_r_wd = out_r['df_wd']
+
+
+    # TODO: Check something on booking durations
+    cdf_bookings_duration(c2g_b_we, c2g_b_wd, enj_b_we, enj_b_wd)
+    cdf_rental_duration(c2g_r_we, c2g_r_wd, enj_r_we, enj_r_wd)
+    cdf_rental_distance(c2g_r_we, c2g_r_wd, enj_r_we, enj_r_wd)
+    #
+    cdf_booking_duration_vs_google_duration(c2g, enj)
