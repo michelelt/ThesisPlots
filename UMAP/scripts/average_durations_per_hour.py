@@ -3,6 +3,7 @@ sys.path.append('../..')
 from Classes.Filter import Filter
 from Classes.ReadConfig import ReadConfig
 from Classes.DF2GDF import DF2GDF
+from Classes.Loader import Loader
 
 import pandas as pd
 import geopandas as gpd
@@ -12,14 +13,12 @@ import matplotlib.pyplot as plt
 if __name__=='__main__':
     rc = ReadConfig('../config.json')
     config = rc.get_config()
+    city = 'Torino'
     nrows = None
     provider = 'both'
 
-    if provider == 'car2go': df = pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)
-    elif provider=='both':
-        df=pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)\
-        .append(pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows), ignore_index=True, sort=False)
-    else: df = pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows)
+    df = Loader(config, city, provider, nrows)
+    
 
     filter = Filter(df, config)
     df_before_filters = df.copy()
@@ -28,8 +27,6 @@ if __name__=='__main__':
     df = filter.rentals()
     df = df[df['pt_duration']!=-1]
     df = df[df['driving_duration']!=-1]
-
-
 
     c2g = df[df.vendor=='car2go']
     c2g = c2g.groupby('Hour').median()['duration'].div(60)

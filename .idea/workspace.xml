@@ -2,30 +2,103 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3263b90d-cd0a-483c-8055-4d733545722a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../AeP/Classes/Analytics.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AeP/Classes/Parser.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AeP/Data/011.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AeP/Data/AeP_copy.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BookDwonloader/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/ReadConfig.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMAP/scripts/probability_cs_vs_pt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/WhatsappCrawler.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/cred.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Data/ListOfContacts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Readme.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/SHAPE.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.dbf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.prj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.sbn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.sbx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.shp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.shp.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.shx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/CDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/CDF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/heat_map.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_date.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_date.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_hour.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_hour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/geo_data_source.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/minneapolis_centerlines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/minneapolis_trails_bikes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/louisville_scooter_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/minneapolis_scooter_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/trips_data_source.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/geospatial_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/path_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/time_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/city_geo_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/minneapolis_geo_trips.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/config/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../city_data_manager/config/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/DataStructures/City.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/Loading/Loader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/ModelValidation/model_validation.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/ModelValidation/model_validation_plot.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/ModelValidation/model_validation_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/MultipleRun/multiple_runs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EFFCS_ChargingPrimitives.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EFFCS_ChargingStrategy.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EFFCS_Sim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EventG_EFFCS_Sim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/TraceB_EFFCS_Sim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/EFFCS_SimConfGrid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/EFFCS_SimInput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/model_validation_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/multiple_runs_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/sim_general_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/single_run_conf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/EFFCS_MultipleRunsPlotter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/EFFCS_SimOutput.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/EFFCS_SimOutputPlotter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/plot_multiple_runs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/get_eventG_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/get_traceB_input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/run_eventG_sim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/run_traceB_sim.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/single_run.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/__main__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/cities.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/bookings_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/car_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/geo_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../simulator/utils/path_utils.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,29 +130,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UMAP" />
       <recent name="$PROJECT_DIR$/UMAP/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.heat_map">
-    <configuration name="CDF" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ThesisPlots" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/CDF.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.pt_chose_probability">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -163,6 +218,9 @@
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -178,13 +236,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="pt_chose_probability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ThesisPlots" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.pt_chose_probability" />
+        <item itemvalue="Python.heat_map_driving_vs_google_duration" />
+        <item itemvalue="Python.average_durations_per_hour" />
         <item itemvalue="Python.heat_map" />
         <item itemvalue="Python.probability_cs_vs_pt" />
-        <item itemvalue="Python.heat_map_driving_vs_google_duration" />
-        <item itemvalue="Python.CDF" />
-        <item itemvalue="Python.average_durations_per_hour" />
       </list>
     </recent_temporary>
   </component>
@@ -211,7 +288,8 @@
       <workItem from="1588236524480" duration="7119000" />
       <workItem from="1588343561480" duration="5279000" />
       <workItem from="1588572805535" duration="687000" />
-      <workItem from="1588573713338" duration="5791000" />
+      <workItem from="1588573713338" duration="5930000" />
+      <workItem from="1589039261363" duration="1285000" />
     </task>
     <servers />
   </component>
@@ -294,10 +372,10 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2058" y="162" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395704874" />
-    <state x="3657" y="24" width="1077" height="720" maximized="true" key="dock-window-1" timestamp="1588573855184">
-      <screen x="3360" y="23" width="1920" height="1057" />
+    <state x="3360" y="81" width="1089" height="720" maximized="true" key="dock-window-1" timestamp="1589039604632">
+      <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="81" width="1089" height="720" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588143411798" />
+    <state x="3360" y="81" width="1089" height="720" maximized="true" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589039604632" />
     <state x="3657" y="24" width="1077" height="720" maximized="true" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1588573855184" />
     <state x="3360" y="0" width="1086" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324368" />
     <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />

@@ -3,6 +3,7 @@ sys.path.append('../..')
 from Classes.Filter import Filter
 from Classes.DF2GDF import DF2GDF
 from Classes.ReadConfig import ReadConfig
+from Classes.Loader import Loader
 
 
 import pandas as pd
@@ -24,14 +25,11 @@ if __name__=='__main__':
     rc = ReadConfig('../config.json')
     config = rc.get_config()
 
-    nrows = 128000
+    nrows = 1280
     provider = 'both'
+    city='Torino'
 
-    if provider == 'car2go': df = pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)
-    elif provider=='both':
-        df=pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)\
-        .append(pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows), ignore_index=True, sort=False)
-    else: df = pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows)
+    df = Loader(config, city, provider, nrows)
 
     df_before_filters = df.copy()
 

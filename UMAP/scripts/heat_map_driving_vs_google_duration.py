@@ -1,31 +1,23 @@
 import sys
 sys.path.append('../..')
 from Classes.Filter import Filter
-from Classes.DF2GDF import DF2GDF
 from Classes.ReadConfig import ReadConfig
-
+from Classes.Loader import Loader
 
 import pandas as pd
-import geopandas as gpd
-import json
 import matplotlib.pyplot as plt
 
 if __name__=='__main__':
     rc = ReadConfig('../config.json')
     config = rc.get_config()
-
-    nrows = 100000
+    city = 'Torino'
     provider = 'car2go'
+    nrows = 1000
     label_x = 'duration'
     # label_y = 'pt_duration'
     label_y = 'driving_duration'
 
-    if provider == 'car2go': df = pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)
-    elif provider=='both':
-        df=pd.read_csv(config['data_path'] + 'Torino.csv', nrows=nrows)\
-        .append(pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows), ignore_index=True, sort=False)
-    else: df = pd.read_csv(config['data_path'] + 'enjoyTorino.csv', nrows=nrows)
-
+    df = Loader(config, city, provider, nrows)
 
     df_before_filters = df.copy()
 

@@ -1,5 +1,5 @@
 {
-  "data_path": "../../Data/",
+  "data_path": "../Data/",
   "init_ts": 1481324400,
   "final_ts": 1485903599,
   "output_plot_path": "../Plots/",
