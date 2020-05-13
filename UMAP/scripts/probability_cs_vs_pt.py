@@ -13,6 +13,7 @@ import matplotlib.pyplot as plt
 if __name__=='__main__':
     rc = ReadConfig('../config.json')
     config = rc.get_config()
+    plt.rcParams.update({'font.size': config['fs']})
 
     nrows = 128000
     provider = 'both'

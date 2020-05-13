@@ -9,7 +9,7 @@ class Filter:
     def date_standardization(self):
         df = self.df
         df['Date_index'] = pd.to_datetime(df.init_date, format='%Y-%m-%d %H:%M:%S')
-        df['Wod'] = df.Date_index.dt.weekday_name
+        df['Wod'] = df.Date_index.dt.day_name()
         self.df=df
         return  df
 

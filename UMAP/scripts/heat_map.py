@@ -24,6 +24,7 @@ def print_point(df1, df2, index):
 if __name__=='__main__':
     rc = ReadConfig('../config.json')
     config = rc.get_config()
+    plt.rcParams.update({'font.size': config['fs']})
 
     nrows = 1280
     provider = 'both'

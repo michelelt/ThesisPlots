@@ -10,6 +10,8 @@ import matplotlib.pyplot as plt
 if __name__=='__main__':
     rc = ReadConfig('../config.json')
     config = rc.get_config()
+    plt.rcParams.update({'font.size': config['fs']})
+
     city = 'Torino'
     provider = 'car2go'
     nrows = 1000

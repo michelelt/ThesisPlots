@@ -10,7 +10,7 @@
       <change afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Loader.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Car2goFormatter.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
@@ -22,25 +22,12 @@
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ThesisPlots.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ThesisPlots.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/SHAPE.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.sbn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.sbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Centroidi.shx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.dbf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.prj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.sbn" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.sbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.shp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.shp.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data/TorinoShape/Zonizzazione.shx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/heat_map.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__main__.py" beforeDir="false" />
@@ -134,7 +121,7 @@
       <recent name="$PROJECT_DIR$/UMAP/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.pt_chose_probability">
+  <component name="RunManager" selected="Python.average_durations_per_hour">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,6 +167,9 @@
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -199,6 +189,9 @@
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -257,9 +250,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.average_durations_per_hour" />
         <item itemvalue="Python.pt_chose_probability" />
         <item itemvalue="Python.heat_map_driving_vs_google_duration" />
-        <item itemvalue="Python.average_durations_per_hour" />
         <item itemvalue="Python.heat_map" />
         <item itemvalue="Python.probability_cs_vs_pt" />
       </list>
@@ -289,7 +282,9 @@
       <workItem from="1588343561480" duration="5279000" />
       <workItem from="1588572805535" duration="687000" />
       <workItem from="1588573713338" duration="5930000" />
-      <workItem from="1589039261363" duration="1285000" />
+      <workItem from="1589039261363" duration="1575000" />
+      <workItem from="1589127739555" duration="134000" />
+      <workItem from="1589380819948" duration="2867000" />
     </task>
     <servers />
   </component>
@@ -358,10 +353,10 @@
     </state>
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588169679003" />
     <state width="1878" height="375" key="GridCell.Tab.1.right/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587989778061" />
-    <state x="1909" y="179" key="SettingsEditor" timestamp="1587368897508">
+    <state x="1909" y="179" key="SettingsEditor" timestamp="1589380873339">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1909" y="179" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587368897508" />
+    <state x="1909" y="179" key="SettingsEditor/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589380873339" />
     <state x="1909" y="179" key="SettingsEditor/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587367981152" />
     <state width="960" height="540" key="XDebugger.FullValuePopup" timestamp="1588007591600">
       <screen x="1440" y="0" width="1920" height="1080" />
@@ -372,20 +367,25 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2058" y="162" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395704874" />
-    <state x="3360" y="81" width="1089" height="720" maximized="true" key="dock-window-1" timestamp="1589039604632">
+    <state x="3513" y="0" width="900" height="720" key="dock-window-1" timestamp="1589381237518">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="81" width="1089" height="720" maximized="true" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589039604632" />
+    <state x="3360" y="81" width="1089" height="720" maximized="true" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589128044648" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.23.1920.1057@0.0.1440.900" timestamp="1589127364839" />
     <state x="3657" y="24" width="1077" height="720" maximized="true" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1588573855184" />
     <state x="3360" y="0" width="1086" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324368" />
+    <state x="3513" y="0" width="900" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381237518" />
     <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1080@1440.23.1920.1057" timestamp="1587372840771" />
-    <state x="4141" y="0" width="1086" height="720" key="dock-window-2" timestamp="1588239324370">
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2" timestamp="1589383926237">
       <screen x="3360" y="23" width="1920" height="1057" />
     </state>
-    <state x="3596" y="15" width="916" height="720" maximized="true" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587376020450" />
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589383734573" />
     <state x="0" y="0" width="1440" height="900" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1588028147652" />
-    <state x="4141" y="0" width="1086" height="720" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324370" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1589381460026" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1589383839881" />
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381417703" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1057@1440.23.1920.1057" timestamp="1589383926237" />
     <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3" timestamp="1588239324371">
       <screen x="3360" y="23" width="1920" height="1057" />
     </state>
@@ -399,6 +399,10 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1992" y="127" width="859" height="825" key="find.popup/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588007893621" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1589382217067">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589382217067" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ThesisPlots$CDF.coverage" NAME="CDF Coverage Results" MODIFIED="1587906986255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UMAP/plots" />

@@ -10,11 +10,14 @@ import geopandas as gpd
 import json
 import matplotlib.pyplot as plt
 
+
 if __name__=='__main__':
     rc = ReadConfig('../config.json')
     config = rc.get_config()
+    plt.rcParams.update({'font.size': config['fs']})
+
     city = 'Torino'
-    nrows = None
+    nrows = 100000
     provider = 'both'
 
     df = Loader(config, city, provider, nrows)

@@ -16,6 +16,7 @@
     "geopandas":"0.3.0",
     "pandas":"0.23.4"
   },
-  "figsize": [16,9]
+  "figsize": [16,9],
+  "fs": 20
   
 }
