@@ -22,13 +22,6 @@
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/ThesisPlots.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ThesisPlots.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__main__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/__init__.py" beforeDir="false" />
@@ -148,6 +141,9 @@
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -233,6 +229,9 @@
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />

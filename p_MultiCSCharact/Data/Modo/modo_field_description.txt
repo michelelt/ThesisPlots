@@ -1,0 +1,18 @@
+api: https://bookit.modo.coop/api/v2
+
+modo_raw_data.csv
+
+Capture_time: request capture time.
+LocationID: id of the station.
+CarID: vehicle id.
+StartTime: Rental init timestamp.
+EndTime: Rental end timestamp.
+RequestStart: start of the api update.
+RequestEnd: end of the api update.
+
+modo_travels.csv
+
+car_id: vehicle id.
+start: travel init timestamp.
+end: travel end timestamp.
+duration: travel duration, in minutes.

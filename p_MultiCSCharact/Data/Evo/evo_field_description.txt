@@ -1,0 +1,23 @@
+evo_raw_data.csv
+
+Capture_time: request capture time.
+Fuel: fuel percentage of the vehicle.
+Id: vehicle id.
+Lat: latitude where the vehicle is parked.
+Lon: longitude where the vehicle is parked.
+Status_tag: indicates if the vehicle started a travel, ended a travel or is parked at the moment.
+
+evo_travels.csv
+
+Id: vehicle id.           
+Start_time: travel init time.
+Start_lat: latitude in which the vehicle starts the travel.
+Start_lon: longitude in which the vehicle starts the travel.
+Fuel_start: fuel percentage in which the vehicle starts the travel.
+End_time: travel end time.
+End_lat: latitude in which the vehicle ends the travel.
+End_lon: longitude in which the vehicle ends the travel.
+Fuel_end: fuel percentage in which the vehicle ends the travel.
+duration: travel time duration, in minutes.
+distance: travel distance, in meters.
+

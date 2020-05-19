@@ -1,0 +1,26 @@
+{
+  "data_path": "./Data/",
+  "init_ts": 1481324400,
+  "final_ts": 1485903599,
+  "output_plot_path": "./Plots/",
+  "duration_s_min": 60,
+  "duration_s_max": 7200,
+  "distance_m_min": 500,
+  "Minn_min_lat": 44.875,
+  "Minn_min_lon": -93.24,
+  "Minn_max_lat": 45.501,
+  "Minn_max_lon": -93.19,
+  "crs": {"init": "epsg:4326"},
+  "caselleID": 177,
+  "versions":{
+    "geopandas":"0.3.0",
+    "pandas":"0.23.4"
+  },
+  "figsize": [10,5],
+  "fs": 15,
+  "colors_per_city":{
+    "Minneapolis":"blue",
+    "Louisville": "red"
+  }
+  
+}
