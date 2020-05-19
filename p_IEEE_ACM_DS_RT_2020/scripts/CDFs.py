@@ -84,17 +84,15 @@ class CDFs :
         self.saveplot(save, name)
         fig.show()
 
-    def cdf_rental_distance(self, save=False, name="CDF_Rentals_Distance.pdf", is_km=True):
+    def cdf_rental_distance(self, save=False, name="CDF_Rentals_Distance.pdf"):
         '''
         cdf RENTAL DISTANCE
         '''
-        if is_km: norm=1
-        else: norm=1000
 
         fig,ax = plt.subplots(1,1, figsize=self.config['figsize'])
         for label in self.labels:
-            x_b_we, y_b_we = self.compute_cdf(self.datasets[label]['rentals']['WE'].distance.div(60))
-            x_b_wd, y_b_b_wd = self.compute_cdf(self.datasets[label]['rentals']['WD'].distance.div(60))
+            x_b_we, y_b_we = self.compute_cdf(self.datasets[label]['rentals']['WE'].distance.div(1000))
+            x_b_wd, y_b_b_wd = self.compute_cdf(self.datasets[label]['rentals']['WD'].distance.div(1000))
             ax.plot(x_b_we, y_b_we, color=self.config['colors_per_city'][label], label='%s Week Days' %label)
             ax.plot(x_b_wd, y_b_b_wd, color=self.config['colors_per_city'][label], linestyle='--', label="%s Week Ends"% label)
 

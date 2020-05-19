@@ -17,6 +17,11 @@ import pandas as pd
 
 new_columns={'TripDuration':'duration', 'TripDistance':'distance', 'StartTime':'init_date', 'EndTime':'final_date'}
 
+
+def get_df_br():
+    zz1, zz2 = RentalBookingsPerHour.get_df_br()
+
+
 if __name__ == '__main__':
     l1 = 'Minneapolis'
     l2 = 'Louisville'
@@ -47,16 +52,16 @@ if __name__ == '__main__':
     louis_allevents = louis.copy()
     louis['Date'] = louis.Date_index.dt.date
     louis_allevents['Date'] = louis_allevents.Date_index.dt.date
-
+    #
 
     df_allevents = minn_allevents.append(louis_allevents, sort=False)
     df = minn.append(louis, sort=False)
 
 
     cdfs = CDFs(config, df, labels=[l1, l2])
-    cdfs.cdf_bookings_duration(save=False)
-    cdfs.cdf_rental_duration(save=False)
-    cdfs.cdf_rental_distance(save=False, is_km=False)
+    cdfs.cdf_bookings_duration(save=True)
+    cdfs.cdf_rental_duration(save=True)
+    cdfs.cdf_rental_distance(save=True)
 
     # RentalsBookingsPerDate(config, df_allevents, df, labels=[l1, l2], save=True)
     # RentalBookingsPerHour(config, df, labels=[l1, l2], save=True)

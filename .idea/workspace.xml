@@ -10,7 +10,6 @@
       <change afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Car2goFormatter.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
@@ -22,6 +21,14 @@
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/ReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ReadConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/CDFs.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/CDFs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__main__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/__init__.py" beforeDir="false" />
@@ -114,7 +121,26 @@
       <recent name="$PROJECT_DIR$/UMAP/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.average_durations_per_hour">
+  <component name="RunManager" selected="Python.__main__">
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ThesisPlots" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -141,9 +167,6 @@
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -203,28 +226,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="probability_cs_vs_pt" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ThesisPlots" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/probability_cs_vs_pt.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="pt_chose_probability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -249,11 +250,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.__main__" />
         <item itemvalue="Python.average_durations_per_hour" />
         <item itemvalue="Python.pt_chose_probability" />
         <item itemvalue="Python.heat_map_driving_vs_google_duration" />
         <item itemvalue="Python.heat_map" />
-        <item itemvalue="Python.probability_cs_vs_pt" />
       </list>
     </recent_temporary>
   </component>
@@ -376,19 +377,24 @@
     <state x="3513" y="0" width="900" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381237518" />
     <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1080@1440.23.1920.1057" timestamp="1587372840771" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2" timestamp="1589383926237">
-      <screen x="3360" y="23" width="1920" height="1057" />
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2" timestamp="1589909027817">
+      <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589383734573" />
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909027817" />
     <state x="0" y="0" width="1440" height="900" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1588028147652" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1589381460026" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1589383839881" />
     <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381417703" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1057@1440.23.1920.1057" timestamp="1589383926237" />
-    <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3" timestamp="1588239324371">
-      <screen x="3360" y="23" width="1920" height="1057" />
+    <state x="3360" y="0" width="1005" height="829" key="dock-window-3" timestamp="1589909544295">
+      <screen x="3360" y="0" width="1920" height="1080" />
     </state>
+    <state x="3360" y="0" width="1005" height="829" key="dock-window-3/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909544295" />
     <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324371" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-4" timestamp="1589909544297">
+      <screen x="3360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-4/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909544297" />
     <state x="1988" y="202" key="editAsTableFormatDialogDimension" timestamp="1588004696706">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>

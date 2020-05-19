@@ -18,8 +18,8 @@ class RentalBookingsPerHour:
             sub_df = df[df.vendor == label]
             sub_df_filter = Filter(sub_df, config)
             sub_df_split_dict = sub_df_filter.split_WD_WE()
-            sub_df_we = sub_df_split_dict['df_we']
-            sub_df_wd = sub_df_split_dict['df_wd']
+            sub_df_we = sub_df_split_dict['WE']
+            sub_df_wd = sub_df_split_dict['WD']
             column_ref = df.columns[0]
             # c2g_number_of_workingdays = c2g_wd.groupby('Wod').count()[column_ref].sum()
             # c2g_number_of_weekends = c2g_we.groupby('Wod').count()[column_ref].sum()
@@ -36,6 +36,8 @@ class RentalBookingsPerHour:
         ax.set_xticks(range(0, 24))
         ax.grid()
         # ax.set_ylim(0,6000)
+        ax.set_ylabel('Rentals per day')
+        ax.set_xlabel('Hour of day')
 
         if save:
             plt.savefig(config['output_plot_path'] + 'ReB_Hour.pdf', bboxinches='tight')

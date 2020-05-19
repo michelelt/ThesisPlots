@@ -6,12 +6,21 @@ class Filter:
         self.df=df
         self.config = config
 
-    def date_standardization(self):
+    def date_standardization(self, fmt='%Y-%m-%d %H:%M:%S'):
         df = self.df
-        df['Date_index'] = pd.to_datetime(df.init_date, format='%Y-%m-%d %H:%M:%S')
+        print(df.vendor[0], df.init_date[0], fmt)
+        df['Date_index'] = pd.to_datetime(df.init_date, format=fmt)
         df['Wod'] = df.Date_index.dt.day_name()
+        df['Hour'] = df.Date_index.dt.hour
         self.df=df
         return  df
+
+    def localize_timezone(self, column, itz, ttz):
+        df = self.df
+        df[column] = df[column].dt.tz_localize(itz).dt.tz_convert(ttz)
+        df['Hour'] = df.Date_index.dt.hour
+        self.df=df
+        return df
 
 
     def remove_fake_bookings_torino(self):
@@ -24,13 +33,23 @@ class Filter:
         self.df = df
         return df
 
+    def remove_fake_bookings_minneapolis(self):
+        df = self.df
+        config = self.config
+        df = df[(df['start_lon'] >= config["Minn_min_lon"]) & (df['start_lon'] <= config["Minn_max_lon"])]
+        df = df[(df['start_lat'] >= config["Minn_min_lat"]) & (df['start_lon'] <= config["Minn_max_lat"])]
+        df = df[(df['end_lon'] >= config["Minn_min_lon"]) & (df['end_lon'] <= config["Minn_max_lon"])]
+        df = df[(df['end_lat'] >= config["Minn_min_lat"]) & (df['end_lon'] <= config["Minn_max_lat"])]
+        self.df = df
+        return df
+
     def split_WD_WE(self):
         df = self.df
 
         df_we = df[df.Wod.isin(["Saturday", "Sunday"])]
         df_wd = df[~df.Wod.isin(["Saturday", "Sunday"])]
 
-        return {"df_we": df_we, "df_wd": df_wd}
+        return {"WE": df_we, "WD": df_wd}
 
 
     def reservation(self, provider):
@@ -50,7 +69,7 @@ class Filter:
     def rentals(self):
         df = self.df
         config = self.config
-        df = df[df['distance'] >= config["distance_m_min"]]
+        df = df[(df['distance'] >= config["distance_m_min"]) & (df['distance'] <= config["distance_m_max"]) ]
         df = df[(df['duration'] >= config["duration_s_min"]) & (df['duration'] <= config["duration_s_max"])]
         self.df = df
         return df
