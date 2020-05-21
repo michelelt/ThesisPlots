@@ -10,6 +10,9 @@
       <change afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../RelocationFromServer/Scripts/RelocAnalyses.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/__main__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/CDFs.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
@@ -22,15 +25,10 @@
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/ReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ReadConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/CDF.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/CDFs.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/CDFs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city_data_manager/__main__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/config.py" beforeDir="false" />
@@ -40,50 +38,13 @@
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/geo_data_source/minneapolis_trails_bikes.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/louisville_scooter_trips.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/minneapolis_scooter_trips.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/trips_data_source/trips_data_source.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/geospatial_utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/path_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/utils/time_utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/city_geo_trips.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city_data_manager/city_geo_trips/minneapolis_geo_trips.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/config/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../city_data_manager/config/config.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/DataStructures/City.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/Loading/Loader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/ModelValidation/model_validation.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/ModelValidation/model_validation_plot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/ModelValidation/model_validation_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/MultipleRun/multiple_runs.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EFFCS_ChargingPrimitives.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EFFCS_ChargingStrategy.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EFFCS_Sim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/EventG_EFFCS_Sim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/Simulation/TraceB_EFFCS_Sim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/EFFCS_SimConfGrid.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/EFFCS_SimInput.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/model_validation_conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/multiple_runs_conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/sim_general_conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationInput/confs/single_run_conf.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/EFFCS_MultipleRunsPlotter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/EFFCS_SimOutput.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/EFFCS_SimOutputPlotter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SimulationOutput/plot_multiple_runs.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/get_eventG_input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/get_traceB_input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/run_eventG_sim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/run_traceB_sim.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/SingleRun/single_run.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/cities.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/utils/bookings_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../simulator/utils/car_utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/utils/geo_utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/utils/path_utils.py" beforeDir="false" />
     </list>
@@ -112,27 +73,30 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UMAP/Data" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/UMAP/Data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/UMAP" />
       <recent name="$PROJECT_DIR$/UMAP/scripts" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.__main__">
+  <component name="RunManager">
     <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,98 +127,9 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="average_durations_per_hour" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ThesisPlots" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="heat_map" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ThesisPlots" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/heat_map.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="heat_map_driving_vs_google_duration" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ThesisPlots" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pt_chose_probability" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="ThesisPlots" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="true" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.__main__" />
-        <item itemvalue="Python.average_durations_per_hour" />
-        <item itemvalue="Python.pt_chose_probability" />
-        <item itemvalue="Python.heat_map_driving_vs_google_duration" />
-        <item itemvalue="Python.heat_map" />
       </list>
     </recent_temporary>
   </component>
@@ -285,6 +160,7 @@
       <workItem from="1589039261363" duration="1575000" />
       <workItem from="1589127739555" duration="134000" />
       <workItem from="1589380819948" duration="2867000" />
+      <workItem from="1590043874798" duration="1856000" />
     </task>
     <servers />
   </component>
@@ -292,9 +168,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1864" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587838591138">
-      <screen x="1440" y="0" width="1920" height="1038" />
+    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590047083568">
+      <screen x="1440" y="0" width="1920" height="1080" />
     </state>
+    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590047083568" />
     <state x="1864" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587838591138" />
     <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587383179199">
       <screen x="1440" y="0" width="1920" height="1080" />
@@ -367,20 +244,20 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2058" y="162" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395704874" />
-    <state x="3513" y="0" width="900" height="720" key="dock-window-1" timestamp="1589381237518">
+    <state x="3360" y="0" width="1001" height="844" key="dock-window-1" timestamp="1590047757536">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="81" width="1089" height="720" maximized="true" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589128044648" />
+    <state x="3360" y="0" width="1001" height="844" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590047757536" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.23.1920.1057@0.0.1440.900" timestamp="1589127364839" />
     <state x="3657" y="24" width="1077" height="720" maximized="true" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1588573855184" />
     <state x="3360" y="0" width="1086" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324368" />
     <state x="3513" y="0" width="900" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381237518" />
     <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1080@1440.23.1920.1057" timestamp="1587372840771" />
-    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2" timestamp="1589909027817">
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2" timestamp="1590047757537">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909027817" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590047757537" />
     <state x="0" y="0" width="1440" height="900" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1588028147652" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1589381460026" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1589383839881" />
@@ -391,19 +268,20 @@
     </state>
     <state x="3360" y="0" width="1005" height="829" key="dock-window-3/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909544295" />
     <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324371" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-4" timestamp="1589909544297">
-      <screen x="3360" y="0" width="1920" height="1080" />
+    <state x="1440" y="23" width="1920" height="1015" maximized="true" key="dock-window-4" timestamp="1590043955319">
+      <screen x="1440" y="0" width="1920" height="1038" />
     </state>
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-4/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909544297" />
+    <state x="1440" y="23" width="1920" height="1015" maximized="true" key="dock-window-4/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590043955319" />
     <state x="1988" y="202" key="editAsTableFormatDialogDimension" timestamp="1588004696706">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="1988" y="202" key="editAsTableFormatDialogDimension/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588004696706" />
     <state x="1988" y="202" key="editAsTableFormatDialogDimension/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1587372736680" />
-    <state x="1992" y="127" width="859" height="825" key="find.popup" timestamp="1588007893621">
+    <state x="1992" y="127" width="859" height="825" key="find.popup" timestamp="1590047581715">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1992" y="127" width="859" height="825" key="find.popup/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1588007893621" />
+    <state x="1992" y="127" width="859" height="825" key="find.popup/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590047581715" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1589382217067">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>

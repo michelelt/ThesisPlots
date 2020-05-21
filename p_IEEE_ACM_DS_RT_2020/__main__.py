@@ -58,11 +58,11 @@ if __name__ == '__main__':
     df = minn.append(louis, sort=False)
 
 
-    cdfs = CDFs(config, df, labels=[l1, l2])
-    cdfs.cdf_bookings_duration(save=True)
-    cdfs.cdf_rental_duration(save=True)
-    cdfs.cdf_rental_distance(save=True)
+    # cdfs = CDFs(config, df, labels=[l1, l2])
+    # cdfs.cdf_bookings_duration(save=True)
+    # cdfs.cdf_rental_duration(save=True)
+    # cdfs.cdf_rental_distance(save=True)
 
     # RentalsBookingsPerDate(config, df_allevents, df, labels=[l1, l2], save=True)
-    # RentalBookingsPerHour(config, df, labels=[l1, l2], save=True)
+    RentalBookingsPerHour(config, df, labels=[l1, l2], save=True)
 
