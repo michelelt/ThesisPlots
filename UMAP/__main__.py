@@ -36,8 +36,8 @@ if __name__ == '__main__':
     df_allevents = c2g_allevents.append(enj_allevents, sort=False)
     df = c2g.append(enj, sort=False)
 
-    cdfs = CDFs(config, df)
+    # cdfs = CDFs(config, df)
     # cdfs.cdf_bookings_duration(save=False)
     # cdfs.cdf_rental_duration(save=False)
     # cdfs.cdf_rental_distance(save=False)
-    cdfs.cdf_booking_duration_vs_google_duration(save=False)
+    # cdfs.cdf_booking_duration_vs_google_duration(save=False)

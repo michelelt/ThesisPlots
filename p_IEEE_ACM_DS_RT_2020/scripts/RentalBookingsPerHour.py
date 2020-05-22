@@ -10,7 +10,10 @@ import matplotlib.pyplot as plt
 
 class RentalBookingsPerHour:
 
-    def __init__(self, config, df, labels=['car2go', 'enjoy'], agg_func='count', save=False, name='ReB_Hour.pdf', ):
+    def __init__(self, config, df, labels=['car2go', 'enjoy'], agg_func='count', save=False, norm_per_day=False,name='ReB_Hour.pdf', ):
+
+        if norm_per_day == False: div = 1
+        else: div = norm_per_day = len(df.Date.unique())
 
         fig, ax = plt.subplots(1, 1, figsize=config['figsize'])
 
@@ -25,8 +28,8 @@ class RentalBookingsPerHour:
             # c2g_number_of_weekends = c2g_we.groupby('Wod').count()[column_ref].sum()
 
 
-            sub_df_we = sub_df_we.groupby('Hour')[column_ref].agg(agg_func)
-            sub_df_wd = sub_df_wd.groupby('Hour')[column_ref].agg(agg_func)
+            sub_df_we = sub_df_we.groupby('Hour')[column_ref].agg(agg_func).div(div)
+            sub_df_wd = sub_df_wd.groupby('Hour')[column_ref].agg(agg_func).div(div)
 
             ax.plot(sub_df_wd.index, sub_df_wd.values, color=config['colors_per_city'][label], label='%s Working Days' % label)
             ax.plot(sub_df_we.index, sub_df_we.values, color=config['colors_per_city'][label], label='%s Week Ends' % label, linestyle='--')

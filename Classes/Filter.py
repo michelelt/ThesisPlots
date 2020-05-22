@@ -5,6 +5,8 @@ class Filter:
     def __init__(self, df, config):
         self.df=df
         self.config = config
+        self.itz = None
+        self.ttz = None
 
     def date_standardization(self, fmt='%Y-%m-%d %H:%M:%S'):
         df = self.df
@@ -19,6 +21,8 @@ class Filter:
         df = self.df
         df[column] = df[column].dt.tz_localize(itz).dt.tz_convert(ttz)
         df['Hour'] = df.Date_index.dt.hour
+        self.itz = itz
+        self.ttz = ttz
         self.df=df
         return df
 
@@ -77,7 +81,14 @@ class Filter:
     def limit_date(self):
         df = self.df
         config = self.config
-        df = df[(df['init_time'] >= config["init_time"]) & (df['final_time'] <= config["final_time"])]
+        if self.ttz != None:
+            lowerbound_date = config['init_date'].tz_localize(self.ttz)
+            upperbound_date = config['final_date'].tz_localize(self.ttz)
+        else:
+            lowerbound_date = config['init_date']
+            upperbound_date = config['final_date']
+
+        df = df[(df['Date_index'] >= lowerbound_date) & (df['Date_index'] <= upperbound_date)]
         self.df = df
         return df
 

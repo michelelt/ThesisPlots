@@ -1,5 +1,6 @@
 import json
 import datetime
+import pandas as pd
 
 class ReadConfig:
 
@@ -18,12 +19,12 @@ class ReadConfig:
     def __new__(cls, config_path):
         with open(config_path) as fp: config = json.load(fp)
         if 'init_date' in config.keys():
-            config['init_date'] = datetime.datetime.strptime(config['init_date'], '%Y-%m-%dT%H:%M:%S')
-            config['init_time'] = datetime.datetime.timestamp(config['init_date'])
+            config['init_date'] = pd.to_datetime(config['init_date'], format='%Y-%m-%dT%H:%M:%S')
+            # config['init_time'] = datetime.datetime.timestamp(config['init_date'])
 
         if 'final_date' in config.keys():
-            config['final_date'] = datetime.datetime.strptime(config['final_date'], '%Y-%m-%dT%H:%M:%S')
-            config['final_time'] = datetime.datetime.timestamp(config['final_date'])
+            config['final_date'] = pd.to_datetime(config['final_date'], format='%Y-%m-%dT%H:%M:%S')
+            # config['final_time'] = datetime.datetime.timestamp(config['final_date'])
 
         return config
 

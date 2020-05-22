@@ -6,13 +6,13 @@
       <change afterPath="$PROJECT_DIR$/../AeP/Classes/Parser.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AeP/Data/011.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../AeP/Data/AeP_copy.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AeP/Data/projectx" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../BookDwonloader/requirements" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../RelocationFromServer/Scripts/RelocAnalyses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMAP/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UMAP/scripts/CDFs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Car2goFormatter.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
@@ -25,9 +25,14 @@
       <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UMAP/scripts/CDF.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/ReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ReadConfig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/__main__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/minneapolis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/minneapolis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/__init__.py" beforeDir="false" />
@@ -63,6 +68,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="6a016af0-7a35-43df-90b0-abe667e74cce" />
   <component name="ProjectId" id="1alCTHPMBtXWmVh9WZG0CFliRIO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -91,12 +97,12 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/__main__.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -161,6 +167,8 @@
       <workItem from="1589127739555" duration="134000" />
       <workItem from="1589380819948" duration="2867000" />
       <workItem from="1590043874798" duration="1856000" />
+      <workItem from="1590157846249" duration="3622000" />
+      <workItem from="1590161813273" duration="1355000" />
     </task>
     <servers />
   </component>
@@ -168,10 +176,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590047083568">
+    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590158051477">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590047083568" />
+    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158051477" />
     <state x="1864" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587838591138" />
     <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587383179199">
       <screen x="1440" y="0" width="1920" height="1080" />
@@ -244,35 +252,40 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2058" y="162" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395704874" />
-    <state x="3360" y="0" width="1001" height="844" key="dock-window-1" timestamp="1590047757536">
-      <screen x="3360" y="0" width="1920" height="1080" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1" timestamp="1590164558393">
+      <screen x="3360" y="23" width="1920" height="1057" />
     </state>
-    <state x="3360" y="0" width="1001" height="844" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590047757536" />
+    <state x="3360" y="0" width="997" height="844" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223605" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.23.1920.1057@0.0.1440.900" timestamp="1589127364839" />
-    <state x="3657" y="24" width="1077" height="720" maximized="true" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1588573855184" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590164558393" />
     <state x="3360" y="0" width="1086" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324368" />
     <state x="3513" y="0" width="900" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381237518" />
     <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1080@1440.23.1920.1057" timestamp="1587372840771" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2" timestamp="1590047757537">
+    <state x="4051" y="0" width="997" height="844" key="dock-window-2" timestamp="1590158223607">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590047757537" />
+    <state x="4051" y="0" width="997" height="844" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223607" />
     <state x="0" y="0" width="1440" height="900" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1588028147652" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1589381460026" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1589383839881" />
     <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381417703" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1057@1440.23.1920.1057" timestamp="1589383926237" />
-    <state x="3360" y="0" width="1005" height="829" key="dock-window-3" timestamp="1589909544295">
+    <state x="3360" y="0" width="997" height="844" key="dock-window-3" timestamp="1590158223608">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="0" width="1005" height="829" key="dock-window-3/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909544295" />
+    <state x="3360" y="0" width="997" height="844" key="dock-window-3/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223608" />
     <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324371" />
-    <state x="1440" y="23" width="1920" height="1015" maximized="true" key="dock-window-4" timestamp="1590043955319">
-      <screen x="1440" y="0" width="1920" height="1038" />
+    <state x="4283" y="0" width="997" height="844" key="dock-window-4" timestamp="1590158223610">
+      <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-4/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1589909544297" />
+    <state x="4283" y="0" width="997" height="844" key="dock-window-4/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223610" />
     <state x="1440" y="23" width="1920" height="1015" maximized="true" key="dock-window-4/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590043955319" />
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-5" timestamp="1590161825775">
+      <screen x="3360" y="0" width="1920" height="1080" />
+    </state>
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-5/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590161825775" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-5/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590160259897" />
     <state x="1988" y="202" key="editAsTableFormatDialogDimension" timestamp="1588004696706">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
