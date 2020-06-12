@@ -44,6 +44,7 @@ class DF2GDF:
         start_zones = list(df.start_zone_ID.unique())
         end_zones = list(df.end_zone_ID.unique())
         zones_set = set(start_zones+end_zones)
+        print(zones_set)
         map = map.loc[zones_set]
         return map
 

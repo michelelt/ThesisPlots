@@ -79,6 +79,6 @@ if __name__ == '__main__':
     # cdfs.cdf_rental_duration(save=True)
     # cdfs.cdf_rental_distance(save=True)
 
-    # RentalsBookingsPerDate(config, None, df, labels=[l1, l2], save=True)
-    RentalBookingsPerHour(config, df, labels=[l1, l2], norm_per_day=True, save=True)
+    RentalsBookingsPerDate(config, None, df, labels=[l1, l2], save=False)
+    # RentalBookingsPerHour(config, df, labels=[l1, l2], norm_per_day=True, save=True)
 

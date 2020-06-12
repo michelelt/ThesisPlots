@@ -19,6 +19,6 @@
   },
   "figsize": [16,9],
   "fs": 20,
-  "colors": {"car2go":"blue", "enjoy": "red"}
+  "colors": {"pt": "goldenrod" ,"driving":"green", "car2go":"blue", "enjoy": "red"}
   
 }

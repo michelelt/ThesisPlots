@@ -14,6 +14,7 @@ class Filter:
         df['Date_index'] = pd.to_datetime(df.init_date, format=fmt)
         df['Wod'] = df.Date_index.dt.day_name()
         df['Hour'] = df.Date_index.dt.hour
+        df['Date'] = df.Date_index.dt.date
         self.df=df
         return  df
 

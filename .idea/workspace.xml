@@ -2,37 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3263b90d-cd0a-483c-8055-4d733545722a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../AeP/Classes/Analytics.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AeP/Classes/Parser.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AeP/Data/011.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AeP/Data/AeP_copy.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../AeP/Data/projectx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../BookDwonloader/requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RelocationFromServer/Scripts/RelocAnalyses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Classes/Car2goFormatter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/WhatsappCrawler.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/cred.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Data/ListOfContacts.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/AvgTimePerTransportSolution.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/HeatmapFlows.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/RentalBookingsPerDay.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UMAP/scripts/RentalBookingsPerHour.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AeP/Classes/Parser.py" beforeDir="false" afterPath="$PROJECT_DIR$/../AeP/Classes/Parser.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookDwonloader/requirements" beforeDir="false" afterPath="$PROJECT_DIR$/../BookDwonloader/requirements" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Relocation/Notebooks/read_pickle.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Relocation/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Relocation/scripts/read_pickle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RelocationFromServer/Scripts/RelocAnalyses.py" beforeDir="false" afterPath="$PROJECT_DIR$/../RelocationFromServer/Scripts/RelocAnalyses.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/DF2GDF.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/DF2GDF.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Classes/Filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/Filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Classes/ReadConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/ReadConfig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UMAP/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/average_durations_per_hour.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/heat_map_driving_vs_google_duration.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/probability_cs_vs_pt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/pt_chose_probability.py" beforeDir="false" afterPath="$PROJECT_DIR$/UMAP/scripts/PTChoseProbability.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_date.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UMAP/scripts/rentals-bookings_hour.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalBookingsPerHour.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/RentalsBookingsPerDate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/minneapolis.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/scripts/minneapolis.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/__init__.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../city_data_manager/city_data_source/config/__init__.py" beforeDir="false" />
@@ -52,6 +46,16 @@
       <change beforePath="$PROJECT_DIR$/../simulator/README.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/utils/geo_utils.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../simulator/utils/path_utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/DBManager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/UserList.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Classes/WhatsappCrawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/Classes/WhatsappCrawler.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Configurations/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Configurations/cred.json" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/Configurations/cred.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Data/ListOfContacts.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/Data/ListOfContacts.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../whatsappCrawler/geckodriver_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,6 +84,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/UMAP/Data" />
+    <property name="run.code.analysis.last.selected.profile" value="aDefault" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -91,11 +96,14 @@
       <recent name="$PROJECT_DIR$/UMAP/scripts" />
     </key>
   </component>
-  <component name="RunManager">
-    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.__main__">
+    <configuration name="__main__ (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="ThesisPlots" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -103,6 +111,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/p_IEEE_ACM_DS_RT_2020/__main__.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="__main__" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ThesisPlots" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UMAP" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UMAP/__main__.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,6 +163,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.__main__" />
+        <item itemvalue="Python.__main__ (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -168,7 +196,16 @@
       <workItem from="1589380819948" duration="2867000" />
       <workItem from="1590043874798" duration="1856000" />
       <workItem from="1590157846249" duration="3622000" />
-      <workItem from="1590161813273" duration="1355000" />
+      <workItem from="1590161813273" duration="1636000" />
+      <workItem from="1590170997509" duration="6000" />
+      <workItem from="1590314182817" duration="4178000" />
+      <workItem from="1590686100131" duration="244000" />
+      <workItem from="1590734325917" duration="2386000" />
+      <workItem from="1591001958590" duration="385000" />
+      <workItem from="1591733303861" duration="333000" />
+      <workItem from="1591794623460" duration="796000" />
+      <workItem from="1591819038423" duration="5596000" />
+      <workItem from="1591894332305" duration="7201000" />
     </task>
     <servers />
   </component>
@@ -176,15 +213,19 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590158051477">
+    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590735022751">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
-    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158051477" />
+    <state x="1864" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590735022751" />
     <state x="1864" y="202" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1587838591138" />
     <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587383179199">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2138" y="294" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587383179199" />
+    <state x="2152" y="403" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1591858548352">
+      <screen x="1440" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2152" y="403" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1591858548352" />
     <state x="2187" y="302" key="FileChooserDialogImpl" timestamp="1587368210651">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
@@ -252,40 +293,57 @@
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
     <state x="2058" y="162" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1587395704874" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1" timestamp="1590164558393">
-      <screen x="3360" y="23" width="1920" height="1057" />
-    </state>
-    <state x="3360" y="0" width="997" height="844" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223605" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.23.1920.1057@0.0.1440.900" timestamp="1589127364839" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590164558393" />
-    <state x="3360" y="0" width="1086" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324368" />
-    <state x="3513" y="0" width="900" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381237518" />
-    <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1080@1440.23.1920.1057" timestamp="1587372840771" />
-    <state x="4051" y="0" width="997" height="844" key="dock-window-2" timestamp="1590158223607">
+    <state x="3360" y="0" width="1118" height="831" key="dock-window-1" timestamp="1591858732413">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
-    <state x="4051" y="0" width="997" height="844" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223607" />
-    <state x="0" y="0" width="1440" height="900" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1588028147652" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1589381460026" />
+    <state x="3360" y="0" width="1118" height="831" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1591858732413" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.0.1440.900/1440.0.1920.1080/3360.23.1920.1057@0.0.1440.900" timestamp="1589127364839" />
+    <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590171002875" />
+    <state x="3360" y="0" width="1086" height="720" key="dock-window-1/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324368" />
+    <state x="3736" y="0" width="936" height="831" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1590314337915" />
+    <state x="3507" y="23" width="971" height="720" key="dock-window-1/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1587911659079" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-1/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1080@1440.23.1920.1057" timestamp="1587372840771" />
+    <state x="0" y="0" width="1440" height="900" key="dock-window-2" timestamp="1591944211745">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1591862177612" />
+    <state x="0" y="0" width="1440" height="900" key="dock-window-2/0.0.1440.900@0.0.1440.900" timestamp="1591944211745" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1038/3360.0.1920.1080@1440.0.1920.1038" timestamp="1591897680264" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590735647695" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.0.1920.1038@1440.0.1920.1080" timestamp="1591860929739" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1589383839881" />
-    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-2/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1589381417703" />
-    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1057@1440.23.1920.1057" timestamp="1589383926237" />
-    <state x="3360" y="0" width="997" height="844" key="dock-window-3" timestamp="1590158223608">
+    <state x="3360" y="0" width="936" height="831" key="dock-window-2/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1590314337916" />
+    <state x="3360" y="23" width="1920" height="1057" key="dock-window-2/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1591894512630" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.23.1920.1057/3360.0.1920.1038@1440.23.1920.1057" timestamp="1591859075309" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1590751713879" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-2/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1057@1440.23.1920.1057" timestamp="1590942404592" />
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-3" timestamp="1590387323844">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
     <state x="3360" y="0" width="997" height="844" key="dock-window-3/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223608" />
     <state x="3360" y="36" width="1086" height="720" maximized="true" key="dock-window-3/0.23.1440.877/1440.0.1920.1080/3360.23.1920.1057@1440.0.1920.1080" timestamp="1588239324371" />
-    <state x="4283" y="0" width="997" height="844" key="dock-window-4" timestamp="1590158223610">
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-3/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1590387323844" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-3/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1590343164790" />
+    <state x="3617" y="0" width="936" height="831" key="dock-window-4" timestamp="1590387763171">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
     <state x="4283" y="0" width="997" height="844" key="dock-window-4/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590158223610" />
+    <state x="3617" y="0" width="936" height="831" key="dock-window-4/0.23.1440.877/1440.0.1920.1038/3360.0.1920.1080@1440.0.1920.1038" timestamp="1590387763171" />
     <state x="1440" y="23" width="1920" height="1015" maximized="true" key="dock-window-4/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590043955319" />
-    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-5" timestamp="1590161825775">
+    <state x="3360" y="0" width="936" height="831" key="dock-window-5" timestamp="1590387763173">
       <screen x="3360" y="0" width="1920" height="1080" />
     </state>
     <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-5/0.0.1440.900/1440.0.1920.1080/3360.0.1920.1080@1440.0.1920.1080" timestamp="1590161825775" />
+    <state x="3360" y="0" width="936" height="831" key="dock-window-5/0.23.1440.877/1440.0.1920.1038/3360.0.1920.1080@1440.0.1920.1038" timestamp="1590387763173" />
     <state x="3360" y="0" width="1920" height="1080" key="dock-window-5/0.23.1440.877/1440.0.1920.1038/3360.23.1920.1057@1440.0.1920.1038" timestamp="1590160259897" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-6" timestamp="1590503762999">
+      <screen x="3360" y="23" width="1920" height="1015" />
+    </state>
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-6/0.23.1440.877/1440.0.1920.1038/3360.0.1920.1080@1440.0.1920.1038" timestamp="1590387763174" />
+    <state x="3360" y="0" width="1920" height="1080" maximized="true" key="dock-window-6/0.23.1440.877/1440.23.1920.1015/3360.0.1920.1080@1440.23.1920.1015" timestamp="1590395760260" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-6/0.23.1440.877/1440.23.1920.1015/3360.23.1920.1057@1440.23.1920.1015" timestamp="1590395842689" />
+    <state x="3360" y="0" width="1920" height="1080" key="dock-window-6/0.23.1440.877/1440.23.1920.1057/3360.23.1920.1015@1440.23.1920.1057" timestamp="1590503762999" />
+    <state x="0" y="0" width="1440" height="900" key="dock-window-6/0.23.1440.877@0.23.1440.877" timestamp="1590476157255" />
     <state x="1988" y="202" key="editAsTableFormatDialogDimension" timestamp="1588004696706">
       <screen x="1440" y="0" width="1920" height="1080" />
     </state>
